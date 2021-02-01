@@ -43,7 +43,7 @@ export default function XMLForm() {
           <div>
             <TextField
               id='firstName'
-              data-testid='required-firstName'
+              inputProps={{ 'data-testid': 'required-firstName'}}
               required
               label='First Name'
               style={{ marginBottom: 15 }}
@@ -52,7 +52,7 @@ export default function XMLForm() {
           <div>
             <TextField
               id='lastName'
-              data-testid='required-lastName'
+              inputProps={{ 'data-testid': 'required-lastName'}}
               required
               label='Last Name'
               style={{ marginBottom: 15 }}
@@ -61,7 +61,7 @@ export default function XMLForm() {
           <div>
             <TextField
               id='address'
-              data-testid='required-address'
+              inputProps={{ 'data-testid': 'required-address'}}
               required
               label='Address'
               style={{ marginBottom: 15 }}
@@ -70,7 +70,7 @@ export default function XMLForm() {
           <div>
             <TextField
               id='companyName'
-              data-testid='required-companyName'
+              inputProps={{ 'data-testid': 'required-companyName'}}
               required
               label='Company Name'
               style={{ marginBottom: 15 }}
