@@ -28,7 +28,7 @@ export default function Home() {
       <h1 style={{ color: '#0070f3', textDecoration: 'none' }}>
         DataPassports Technical Challenge{' '}
       </h1>
-      <h2>Fowad Sohail</h2>
+      <h2>Batuhan Kir</h2>
       <Accordion style={{ width: 600 }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           Task{' '}
